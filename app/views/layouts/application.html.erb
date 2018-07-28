@@ -12,9 +12,23 @@
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-new">
+<%# Testing -%>         
+          <div class="dropdown">
+  <button type="button" class="navbar-toggle dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Toggle Navigation
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">About</a>
+    <a class="dropdown-item" href="#"></a>
+    <a class="dropdown-item" href="#"></a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#"></a>
+  </div>
+</div>
+<%# Real Thing -%>
+          <button type="button" class="navbar-toggle dropdown-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
             <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar">About</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>

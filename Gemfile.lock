@@ -166,7 +166,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (= 3.3.7)
+  bootstrap-sass
   byebug
   coffee-rails (= 4.2.1)
   font-awesome-sass (= 4.6.2)
